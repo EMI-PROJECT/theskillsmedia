@@ -53,6 +53,7 @@
     </div> 
 
 
+    
     <div class="rowc">
        <img src="https://th.bing.com/th/id/OIP.94dELyKmnTGlEbXYA5YpjQHaD4?rs=1&pid=ImgDetMain" alt="">
        <p>Gukora website ukoresheje html na csss</p>
