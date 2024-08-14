@@ -14,7 +14,7 @@
     }
 
     footer {
-      background-color: #5b50ea;
+      background-color: #522ee5;
       color: #fff;
       padding: 20px 0;
       position: fixed;

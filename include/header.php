@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Theskillsmedia</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <title>My Application</title>
   <style>
-    /* CSS styles */
-    body {
+    /* CSS Reset */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       font-family: Arial, sans-serif;
     }
 
     header {
-      background-color: #714bd7;
+      background-color: #522ee5;
       color: #fff;
       padding: 20px;
       display: flex;
@@ -22,127 +25,99 @@
       align-items: center;
     }
 
-    .header-name {
-      font-size: 24px;
-      font-weight: bold;
+    nav ul {
+      list-style-type: none;
+      display: flex;
     }
 
-    .header-features {
-      display: flex;
-      align-items: center;
+    nav ul li {
+      margin-right: 20px;
     }
 
-    .header-feature {
-      display: flex;
-      align-items: center;
-      margin-left: 20px;
-      text-decoration: none;
+    nav ul li a {
       color: #fff;
-      font-size: 16px;
-      position: relative;
+      text-decoration: none;
     }
 
-    .header-feature img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .header-feature-details {
+    .hamburger {
       display: none;
-      position: absolute;
-      top: 50px;
-      right: 0;
-      background-color: #333;
-      padding: 10px;
-      z-index: 1;
-      width: 200px;
+      cursor: pointer;
     }
 
-    .header-feature:hover .header-feature-details {
-      display: block;
-    }
-
-    .header-feature i {
-      font-size: 20px;
-      margin-right: 5px;
-    }
-
-    .header-feature-details p {
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
       margin: 5px 0;
+      transition: all 0.3s ease-in-out;
     }
 
-    @media (max-width: 767px) {
-      header {
+    .main-content {
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+
+      .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+
+      .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+      nav.mobile-nav ul {
+        display: flex;
         flex-direction: column;
-        padding: 20px 10px;
+        align-items: center;
+        padding-top: 20px;
       }
 
-      .header-name {
-        font-size: 20px;
-        margin-bottom: 10px;
-      }
-
-      .header-features {
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      .header-feature {
-        margin: 10px;
-      }
-
-      .header-feature-details {
-        top: 60px;
+      nav.mobile-nav ul li {
+        margin: 10px 0;
       }
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="header-name">Emmanuel</div>
-    <div class="header-features">
-      <a href="#" class="header-feature">
-        <i class="fas fa-home"></i>
-        Ahabanza
-      </a>
-     
-      <a href="#" class="header-feature">
-        <i class="fas fa-bell"></i>
-        Ubutumwa
-      </a>
-      <a href="#" class="header-feature">
-        <i class="fas fa-book"></i>
-        Ivyigwa
-      </a>
-
-      <!-- <a href="#" class="header-feature">
-        <img src="https://via.placeholder.com/40" alt="Profile Picture">
-        <div class="header-feature-details">
-          <p>Niyonsavye Emmanuel</p>
-          >
-          <p>View Profile</p>
-        </div>
-      </a> -->
+    <div class="logo">
+      <h1>TheSkillsMedia</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i>Ahabanza</a></li>
+        <li><a href="#"><i class="fas fa-book"></i>Ivyigwa Vyanje</a></li>
+        <li><a href="#"><i class="fas fa-bell"></i>Ubutumwa</a></li>
+        <li><a href="#"><i class="fas fa-user"></i>Umwidondoro</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
   </header>
 
-  <!-- Include Font Awesome icons -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector("nav ul");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("mobile-nav");
+    });
+  </script>
 </body>
-<script>
-
-    // Get the hamburger menu button and the header features
-const hamburgerBtn = document.querySelector('.header-feature.show');
-const headerFeatures = document.querySelectorAll('.header-feature:not(.show)');
-
-// Add a click event listener to the hamburger button
-hamburgerBtn.addEventListener('click', () => {
-  // Toggle the visibility of the header features
-  headerFeatures.forEach(feature => {
-    feature.classList.toggle('show');
-  });
-});
-    </script>
 </html>

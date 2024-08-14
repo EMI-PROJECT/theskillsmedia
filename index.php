@@ -19,7 +19,8 @@
 <!-- include importance files -->
 <?php include('include/header.php');?>
 <?php include('modals.php');?>
- 
+<?php include('join whatsap.php');?>
+<?php include('message.php');?>
 <!-- section1: intoduction -->
 <br><br>
 <div class="content">
@@ -27,7 +28,7 @@
   <p class="lead"> Tangira kwiga ndetse kongera ubumenyi bushya ukoresheje iyi app. Ushobora kandi nawe gushyiraho
     amasomo muburyo bworoshye kandi bwihuse
   </p>
-  <button type='button' class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#home'>Tangira kwiga</button>
+  <button1 type='button' class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#home'>Tangira kwiga</button>
 </div>
 <br>
 <br>
