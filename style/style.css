@@ -43,3 +43,6 @@
     display: table;
     clear: both; 
   }
+  button{
+width: max-content;
+  }
