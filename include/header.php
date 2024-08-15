@@ -57,12 +57,23 @@
     }
 
     @media (max-width: 768px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      .logo {
+        order: 2;
+      }
+
       nav ul {
         display: none;
       }
 
       .hamburger {
         display: block;
+        order: 1;
       }
 
       .hamburger.active .bar:nth-child(2) {
@@ -92,6 +103,11 @@
 </head>
 <body>
   <header>
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
     <div class="logo">
       <h1>TheSkillsMedia</h1>
     </div>
@@ -103,21 +119,8 @@
         <li><a href="#"><i class="fas fa-user"></i>Umwidondoro</a></li>
       </ul>
     </nav>
-    <div class="hamburger">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
   </header>
 
-  <script>
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector("nav ul");
-
-    hamburger.addEventListener("click", () => {
-      hamburger.classList.toggle("active");
-      navMenu.classList.toggle("mobile-nav");
-    });
-  </script>
+  
 </body>
 </html>

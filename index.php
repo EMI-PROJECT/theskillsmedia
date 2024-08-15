@@ -17,10 +17,10 @@
 
 <body>
 <!-- include importance files -->
-<?php include('include/header.php');?>
+<!-- <?php include('include/header.php');?> -->
 <?php include('modals.php');?>
-<?php include('join whatsap.php');?>
-<?php include('message.php');?>
+<?php include('include/join whatsap.php');?>
+<?php include('include/message.php');?>
 <!-- section1: intoduction -->
 <br><br>
 <div class="content">
@@ -81,7 +81,7 @@
 
 
 
-<?php include('include/footer.php'); ?>
+<!-- <?php include('include/footer.php'); ?> -->
 
 </body>
 </html>
