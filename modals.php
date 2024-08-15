@@ -46,8 +46,8 @@
       <div class="form login">
         <header><h2>Kwinjira</h2></header>
         <form action="#">
-          <input type="text" placeholder="Injiza Email Yawe" required /><br><br>
-          <input type="password" placeholder="Injiza Kabanga" required /><br><br>
+          <input type="text" placeholder="Injiza Email Yawe" required />
+          <input type="password" placeholder="Injiza Kabanga" required />
           <a href="#">Wibagiye Kabanga?</a>
           <br>
           <input type="submit" value="Injira" />
@@ -81,14 +81,11 @@
         <header> <h2>Kwugurura Konte</h2> </header>
         <br>
         <form action="#">
-          <input type="text" placeholder="Amazina Yose" required /><br>
-          <input type="text" placeholder="Shiramwo Email Yawe" required /><br>
-          <input type="password" placeholder="Shiramwo Kabanga" required /><br>
-          <input type="password" placeholder="Emeza Kabanga" required /><br>
-          <div class="checkbox">
-            <input type="checkbox" id="signupCheck" />
-            <label for="signupCheck">Emera Amabwiriza Hama Wemeze</label>
-          </div>
+          <input type="text" placeholder="Amazina Yose" required />
+          <input type="text" placeholder="Shiramwo Email Yawe" required />
+          <input type="password" placeholder="Shiramwo Kabanga" required />
+          <input type="password" placeholder="Emeza Kabanga" required />
+        
           <input type="submit" value="Emeza" />
           <br>
           Usanzwe Ufise Konte? <a href="#form login" data-bs-toggle="modal" data-bs-target="#login" class="">Injira</a>

@@ -35,7 +35,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    width: 290px;
+    width: max-content;
     margin:center;
     background-color: #522ee5; /* Couleur de fond */
     color: #fff; /* Couleur du texte */
@@ -48,6 +48,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+
+    width: max-content;
     background-color: #3a1ba0; /* Couleur au survol */
 }
 
@@ -57,7 +59,7 @@ input[type="submit"]:hover {
 }
 
 .checkbox input {
-    margin-left: 0px; /* Espacement à droite de la case */
+    margin-left: 50px; /* Espacement à droite de la case */
 }
 
     
