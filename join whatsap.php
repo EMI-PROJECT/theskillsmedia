@@ -87,7 +87,7 @@
     </div>
   </div>
 
-  <script src="../script/join watsapp.js"></script> <!-- Lien vers le fichier admin.js -->
+  <script src="script/join watsapp.js"></script> <!-- Lien vers le fichier admin.js -->
 </body>
 <script>
   

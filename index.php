@@ -18,7 +18,7 @@
 <body>
 <!-- include importance files -->
 <!--<?php include('modals.php');?> 
-<?php include('include/join whatsap.php');?>
+<?php include('join whatsap.php');?>
 <?php include('include/message.php');?>
 <!-- section1: intoduction -->
 <br><br>
