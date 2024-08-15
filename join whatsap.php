@@ -78,7 +78,7 @@
   <div id="popup-container" class="popup-container">
   <div class="popup-content">
       <span class="close-button">&times;</span>
-      <h2>Injira Muri Groupe yacu ya WhatsApp </h2>
+      <h4>Injira Muri Groupe yacu ya WhatsApp </h4>
       <p>Fyonda Ngaha Kugira Winjire Muri Groupe yacu Ya WhatsApp,
         ubandaynye uronka Amakuru Kumwanya Kumwanya.</p>
       <a href="https://wa.me/12345678901?text=I%20want%20to%20join%20your%20group" target="_blank">

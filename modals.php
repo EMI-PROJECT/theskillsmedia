@@ -44,7 +44,7 @@
       <!-- Login form /The Skills Media-->
      <div class="a">
       <div class="form login">
-        <header><h2>Kwinjira</h2></header>
+        <header><h4>Kwinjira</h4></header>
         <form action="#">
           <input type="text" placeholder="Injiza Email Yawe" required />
           <input type="password" placeholder="Injiza Kabanga" required />
@@ -78,7 +78,7 @@
 
 
     <div class="form signup">
-        <header> <h2>Kwugurura Konte</h2> </header>
+        <header> <h4>Kwugurura Konte</h4> </header>
         <br>
         <form action="#">
           <input type="text" placeholder="Amazina Yose" required />
