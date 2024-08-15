@@ -13,11 +13,7 @@
       <div class="modal-body">
         <!-- start -->
       <p> Mbere yo gutangira guhitamo amasomo wifuza urabanza ufungure konti.</p>
-         <p>|| <b>The skills Media</b></p>    
-
-
-
-          
+         <p>|| <b>The skills Media</b></p>         
     <!-- end -->
       </div>
       <div class="modal-footer">
