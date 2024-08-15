@@ -1,0 +1,63 @@
+
+      /* Styles généraux pour les modals */
+.modal-content {
+    border-radius: 10px; /* Coins arrondis pour les modals */
+    padding: 20px; /* Espacement interne */
+}
+
+.modal-header {
+    border-bottom: none; /* Suppression de la bordure inférieure */
+    
+}
+
+.modal-title {
+    font-weight: bold; /* Titre en gras */
+}
+
+.modal-footer {
+    border-top: none; /* Suppression de la bordure supérieure */
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Alignement colonne */
+    gap: 15px; /* Espacement entre les éléments */
+}
+
+input[type="text"], 
+input[type="password"] {
+
+    width: 390px;
+    padding: 10px; /* Espacement interne du champ */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis des champs */
+    font-size: 16px; /* Taille de la police */
+}
+
+input[type="submit"] {
+    width: 290px;
+    margin:center;
+    background-color: #522ee5; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    font-size: 16px; /* Taille de la police */
+    transition: background-color 0.3s; /* Transition douce pour le survol */
+}
+
+input[type="submit"]:hover {
+    background-color: #3a1ba0; /* Couleur au survol */
+}
+
+.checkbox {
+    display: flex;
+    align-items: left; /* Aligner le texte et la case à cocher */
+}
+
+.checkbox input {
+    margin-left: 0px; /* Espacement à droite de la case */
+}
+
+    

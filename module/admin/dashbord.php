@@ -87,9 +87,9 @@
 
   <!-- Include JavaScript framework (e.g., jQuery, Vue.js, React) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- 
+  <script src="../../script/admin.js"></script> <!-- Lien vers le fichier admin.js -->
 </body>
-<?php include('script/admin.js');?>
+
 </html>
 
 

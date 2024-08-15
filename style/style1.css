@@ -1,0 +1,91 @@
+.btn {
+    display: inline-block; /* S'ajuste au contenu */
+    padding: 10px 20px; /* Espacement interne */
+    background-color: #522ee5; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Changer le curseur au survol */
+    text-align: center; /* Centre le texte */
+    transition: background-color 0.3s, transform 0.2s; /* Effets de transition */
+    max-width: max-content; /* Limite la largeur au contenu */
+  }
+  
+  .btn:hover {
+    background-color: #3a1ba0; /* Couleur au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+  }
+  
+  .btn:focus {
+    outline: none; /* Supprime l'outline par défaut au focus */
+  }
+
+  
+.content {
+    text-align: center;
+    margin: 5px;
+}
+
+/* section 2 : course card design */
+
+.rowc{
+    float: left;
+    width: 19%;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    transition: 0.3s;
+  }
+  .rowc img {
+    width: 90%;
+  }
+  .rowc p {margin: 10px; font-size: 17px;}
+  .rowc h3 {
+    margin: 5px;
+     color: #2d5986; 
+     font-size: 17px; 
+     font-weight: bold;
+     border-style: ridge;
+    }
+  
+  @media screen and (max-width: 800px) {
+    .rowc {
+      width: 48%;
+      margin: auto;
+    margin: 4px;
+    float: left;
+    }
+    .rowc img {
+    width: 100%;
+  }
+  }
+
+  .todo:after{
+    content: "";
+    display: table;
+    clear: both; 
+  }
+
+  .btn btn-primary {
+    display: inline-block; /* S'ajuste au contenu */
+    padding: 10px 20px; /* Espacement interne */
+    background-color: #522ee5; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Changer le curseur au survol */
+    text-align: center; /* Centre le texte */
+    transition: background-color 0.3s, transform 0.2s; /* Effets de transition */
+    max-width: max-content; /* Limite la largeur au contenu */
+  }
+  
+  .btn:hover {
+    background-color: #3a1ba0; /* Couleur au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+  }
+  
+  .btn:focus {
+    outline: none; /* Supprime l'outline par défaut au focus */
+  }

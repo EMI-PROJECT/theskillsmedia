@@ -3,7 +3,7 @@
 <head>
   <title>The skillsmedia // Uhawe ikaze</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/style1.css">
   <!-- linking google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,7 @@
 
 <body>
 <!-- include importance files -->
-<!-- <?php include('include/header.php');?> -->
-<?php include('modals.php');?>
+<!--<?php include('modals.php');?> 
 <?php include('include/join whatsap.php');?>
 <?php include('include/message.php');?>
 <!-- section1: intoduction -->
@@ -75,13 +74,6 @@
        <br> <br>
     </div> 
 </div>
-
-
-
-
-
-
-<!-- <?php include('include/footer.php'); ?> -->
-
 </body>
+
 </html>
