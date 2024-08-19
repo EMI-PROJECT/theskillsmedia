@@ -114,9 +114,9 @@
     <nav>
       <ul>
         <li><a href="#"><i class="fas fa-home"></i>Ahabanza</a></li>
-        <li><a href="#"><i class="fas fa-book"></i>Ivyigwa Vyanje</a></li>
-        <li><a href="#"><i class="fas fa-bell"></i>Ubutumwa</a></li>
-        <li><a href="#"><i class="fas fa-user"></i>Umwidondoro</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> <button>Ivyigwa Vyanje</button> </a></li>
+        <li><a href="#"><i class="fas fa-bell"></i><button> Injira</button></a></li>
+        <li><a href="#"><i class="fas fa-user"></i> <button>Iyandikishe</button> </a></li>
       </ul>
     </nav>
   </header>
