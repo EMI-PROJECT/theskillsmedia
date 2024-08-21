@@ -21,8 +21,8 @@
 <body>
 <!-- include some importance files -->
 <?php include('modals.php');?>
-<?php include '../../include/header.php';?> 
-<?php include '../../include/footer.php';?> <!-- welcome user // this item will display to all pages -->
+<?php include 'header.php';?> 
+<?php include 'footer.php';?> <!-- welcome user // this item will display to all pages -->
  <br><br>
 <div class="alert alert-warning alert-dismissible fade show center"  role="alert">
           Hi.. <b> Furaha Emile </b>,Uhawe ikaze kuri the skills media    

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../dashboard.css">
+<link rel="stylesheet" href="../../style/signup.css">
 <!-- modal for course details -->
 <div class="modal fade" id="coursedetail" tabindex="-1" aria-labelledby="exampleModalCenteredScrollableTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">

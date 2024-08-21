@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Application</title>
+  <title>Uhawe ikaze kurubuga rwigisha amasomo // THE SKILLS MEDIA</title>
   <style>
     /* CSS Reset */
     * {
@@ -113,9 +113,9 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#"><i class="fas fa-home"></i>Ahabanza</a></li>
+        <li><a href=""><i class="fas fa-home"></i>Ahabanza</a></li>
         <li><a href="#"><i class="fas fa-book"></i> <button>Ivyigwa Vyanje</button> </a></li>
-        <li><a href="#"><i class="fas fa-bell"></i><button> Injira</button></a></li>
+        <li><a href="#"><i class="fas fa-user"></i><button> Injira</button></a></li>
         <li><a href="#"><i class="fas fa-user"></i> <button>Iyandikishe</button> </a></li>
       </ul>
     </nav>
